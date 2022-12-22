@@ -14,7 +14,7 @@ public class page1Controller {
     @ResponseBody
     public String goHome(HttpServletRequest request){
         System.out.println("ddd");
-        return "page3";
+        return "page4";
 
     }
 
