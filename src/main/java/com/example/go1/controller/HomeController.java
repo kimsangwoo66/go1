@@ -14,7 +14,7 @@ public class HomeController {
     @ResponseBody
     public String goHome(HttpServletRequest request){
         System.out.println("dd");
-        return "hello my freind";
+        return "hello my freind33";
 
     }
 
