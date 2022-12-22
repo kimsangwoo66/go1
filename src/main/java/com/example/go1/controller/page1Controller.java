@@ -13,8 +13,8 @@ public class page1Controller {
     @RequestMapping(value = "/page1", method = RequestMethod.GET)
     @ResponseBody
     public String goHome(HttpServletRequest request){
-        System.out.println("dd");
-        return "page1";
+        System.out.println("ddd");
+        return "page2";
 
     }
 
